@@ -1,0 +1,49 @@
+ .metric-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid #e9ecef;
+    margin-bottom: 1rem;
+ }
+
+.metric-label {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.metric-value {
+    font-size: 28px;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.1;
+}
+
+.metric-delta-pos {
+    color: #2a9d8f;
+    font-size: 13px;
+    font-weight: 500; 
+}
+
+.metric-delta-neg {
+    color: #e63946; 
+    font-size: 13px; 
+    font-weight: 500;
+}
+
+.section-header {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+    margin: 1.5rem 0 1rem;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+[data-testid="stSidebar"] { background: #1a1a2e; }
+[data-testid="stSidebar"] * { color: #e0e0e0 !important; }
+[data-testid="stSidebar"] .stSelectbox label,
+[data-testid="stSidebar"] .stDateInput label { color: #adb5bd !important; }
