@@ -159,11 +159,15 @@ project/
 │
 ├── components/
 │   ├── churn_charts.py
+│   ├── churn_sidebar.py
 │   ├── ltv_charts.py
+│   ├── ltv_sidebar.py
 │   ├── metric_cards.py
+│   ├── overview_charts.py
 │   ├── retention_charts.py
+│   ├── retention_sidebar.py
 │   ├── revenue_charts.py
-│   └── ...
+│   └── revenue_sidebar.py
 │
 ├── data/
 │   ├── churn_df.py
