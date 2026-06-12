@@ -52,7 +52,7 @@ def get_retention_df():
     (retention["months_since_first"].between(0, 11)) &
     (
         retention["cohort_month"] >=
-        (pd.Timestamp.today().normalize() - pd.DateOffset(months=18))
+        (pd.Timestamp("2026-05-26") - pd.DateOffset(months=18))
     )
 ]
 
